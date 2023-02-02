@@ -1,0 +1,19 @@
+{
+  "name": "cypress-guitar-shop",
+  "version": "1.0.0",
+  "description": "Testy automatyczne E2E thomann.de/pl.",
+  "main": "index.js",
+  "scripts": {
+    "all": "npx cypress run --browser chrome",
+    "open": "npx cypress open"
+  },
+  "keywords": [
+    "Cypress",
+    "Guitar"
+  ],
+  "author": "Marcin Miszta",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.5.0"
+  }
+}
