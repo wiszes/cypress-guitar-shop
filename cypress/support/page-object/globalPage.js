@@ -4,7 +4,7 @@ class GlobalPage {
   }
 
   clickOnAcceptConsentBtn() {
-    this.acceptConsentBtn.trigger("mouseover").click();
+    this.acceptConsentBtn.click();
   }
   visitPage() {
     cy.visit("/index.html");
